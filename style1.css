@@ -16,6 +16,9 @@ body {
     margin: 0 auto;
 }
 /* 헤더 */
+.header-box {
+    height: 85px;
+}
 header {
     position: fixed;
     background-color: rgb(223, 245, 255);
@@ -26,7 +29,7 @@ header {
 header .title {
     font-size: 50px;
     position: fixed;
-    left: 100px;
+    left: 90px;
     top: 30px;
     font-family: 'Quicksand', sans-serif;
 }
@@ -46,61 +49,41 @@ header .menubtn {
 .jujae {
     font-family: 'Nanum Gothic', sans-serif;
 }
-.hi {
-    padding-top: 120px;
-    padding-bottom: 30px;
+.yangpa {
+    padding-top: 150px;
     font-size: 40px;
+    text-align: center;
 }
-.intro {
-    padding-bottom: 10px;
-    padding-left: 30px;
-    font-size: 21px;
+.hi {
+    font-size: 40px;
+    line-height: 50px;
 }
 .jjbox {
-    padding-top: 70px;
+    padding-top: 40px;
     display: flex;
+    width: 1170px;
+    margin: 0 auto;
 }
+
 .sbox,.gbox,.cbox {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    font-size: 45px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
     margin: 0 70px;
-}
-.sbox {
-    display: flex;
-    height: 250px;
-    width: 250px;
-    font-size: 45px;
-    line-height: 240px;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.863);
     margin-bottom: 50px;
     border-radius: 30px;
 }
-.gbox {
-    display: flex;
-    height: 250px;
-    width: 250px;
-    font-size: 45px;
-    line-height: 240px;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.863);
-    margin-bottom: 50px;
-    border-radius: 30px;
-}
-.cbox {
-    display: flex;
-    height: 250px;
-    width: 250px;
-    font-size: 45px;
-    line-height: 240px;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.863);
-    margin-bottom: 50px;
-    border-radius: 30px;
+.songImg,.guitarImg,.codingImg {
+    height: 150px;
+    width: 150px;
 }
 .song,.guitar,.coding {
-    padding: 0 50px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 /* 푸터 */
 footer {

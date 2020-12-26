@@ -1,15 +1,24 @@
 /* 타이틀 yangpa */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 /* 제목들 */
+/* font-family: 'Noto Sans KR', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap');
 /* 본문들 */
+/* font-family: 'Nanum Gothic', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 body {
     background-color: rgb(223, 245, 255);
     height: 900px;
 }
+.inner-container {
+    width: 1400px;
+    margin: 0 auto;
+}
 /* 헤더 */
+.header-box {
+    height: 85px;
+}
 header {
     position: fixed;
     background-color: rgb(223, 245, 255);
@@ -37,8 +46,31 @@ header .menubtn {
     padding-top: 28px;
 }
 /* 메인 */
-.hi {
-    padding-top: 500px;
+.geaju {
+    margin-top: 100px;
+    height: 281.25px;
+    width: 500px;
+    position: relative;
+}
+.contain {
+    width: 7000px;
+    transition: 0.5s;
+    display: flex;
+}
+.inner {
+  width: 500px;
+}
+.btnbox {
+    position: absolute;
+    top: 120px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.left,.right {
+width: 40px;
+height: 40px;
+opacity: 0.7;
 }
 /* 푸터 */
 footer {
