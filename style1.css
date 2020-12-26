@@ -57,12 +57,43 @@ header .menubtn {
     font-size: 21px;
 }
 .jjbox {
+    padding-top: 70px;
     display: flex;
-    font-size: 50px;
-    height: 300px;
-    width: 900px;
+}
+.sbox,.gbox,.cbox {
+    margin: 0 70px;
+}
+.sbox {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    font-size: 45px;
+    line-height: 240px;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.863);
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+.gbox {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    font-size: 45px;
+    line-height: 240px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.863);
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+.cbox {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    font-size: 45px;
+    line-height: 240px;
+    flex-direction: row;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.863);
     margin-bottom: 50px;
