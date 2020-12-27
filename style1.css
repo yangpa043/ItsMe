@@ -80,6 +80,7 @@ header .menubtn {
 .songImg,.guitarImg,.codingImg {
     height: 150px;
     width: 150px;
+    margin: 0 auto;
 }
 .song,.guitar,.coding {
     margin: 0 auto;
