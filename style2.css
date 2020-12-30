@@ -14,10 +14,11 @@ body {
 .inner-container {
     width: 1400px;
     margin: 0 auto;
+    position: relative;
 }
 /* 헤더 */
 .header-box {
-    height: 85px;
+    height: 100px;
 }
 header {
     position: fixed;
@@ -25,6 +26,7 @@ header {
     width: 100%;
     height: 85px;
     top: 0;
+    z-index: 9999;
 }
 header .title {
     font-size: 50px;
@@ -46,8 +48,107 @@ header .menubtn {
     padding-top: 28px;
 }
 /* 메인 */
-.hi {
-    padding-top: 500px;
+.module3 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 50px;
+}
+.geainjujae {
+    background-color: rgb(141, 219, 255);
+    text-align: center;
+    width: 100vw;
+    height: 200px;
+}
+.geainjujaename {
+    padding-top: 50px;
+    font-size: 42px;
+    line-height: 60px;
+}
+.geainjujaeintro {
+font-size: 20px;
+}
+/* 개주프 */
+.geaju {
+    margin-top: 100px;
+    height: 281.25px;
+    width: 500px;
+    position: relative;
+    margin-bottom: 250px;
+}
+.contain {
+    width: 7000px;
+    transition: 0.5s;
+    display: flex;
+}
+.inner {
+  width: 500px;
+}
+.btnbox {
+    position: absolute;
+    top: 120px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.left,.right {
+width: 40px;
+height: 40px;
+opacity: 0.7;
+}
+.txt1 {
+text-align: left;
+position: absolute;
+right: 200px;
+top: 20px;
+}
+.title1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.title1_1 {
+    font-size: 20px;
+    margin-left: 2px;
+}
+.intro1 {
+    margin-top: 10px;
+}
+/* 문제정의 */
+.geaju2 {
+    margin-top: 100px;
+    height: 281.25px;
+    width: 500px;
+    position: relative;
+    left: 800px;
+}
+.contain2 {
+    width: 7000px;
+    transition: 0.5s;
+    display: flex;
+}
+.left2,.right2 {
+width: 40px;
+height: 40px;
+opacity: 0.7;
+}
+.txt2 {
+    width: 490px;
+text-align: right;
+position: absolute;
+top: 10px;
+}
+.title2 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.title2_1 {
+    font-size: 20px;
+    margin-right: 3px;
+}
+.intro2 {
+    margin-top: 10px;
+    line-height: 24px;
 }
 /* 푸터 */
 footer {

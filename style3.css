@@ -9,7 +9,7 @@
 
 body {
     background-color: rgb(223, 245, 255);
-    height: 900px;
+    /* height: 900px; */
 }
 .inner-container {
     width: 1400px;
@@ -18,7 +18,7 @@ body {
 }
 /* 헤더 */
 .header-box {
-    height: 85px;
+    height: 100px;
 }
 header {
     position: fixed;
@@ -26,6 +26,7 @@ header {
     width: 100%;
     height: 85px;
     top: 0;
+    z-index: 9999;
 }
 header .title {
     font-size: 50px;
@@ -54,13 +55,27 @@ header .menubtn {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 50px;
 }
+.geainjujae {
+    background-color: rgb(141, 219, 255);
+    text-align: center;
+    width: 100vw;
+    height: 200px;
+}
+.geainjujaename {
+    padding-top: 50px;
+    font-size: 42px;
+    line-height: 60px;
+}
+.geainjujaeintro {
+font-size: 20px;
+}
 /* 개주프 */
 .geaju {
     margin-top: 100px;
     height: 281.25px;
     width: 500px;
     position: relative;
-    margin-bottom: 250px;
+    margin-bottom: 50px;
 }
 .contain {
     width: 7000px;
@@ -118,10 +133,10 @@ height: 40px;
 opacity: 0.7;
 }
 .txt2 {
-    width: 490px;
+    width: 570px;
 text-align: right;
 position: absolute;
-top: 545px;
+top: 30px;
 }
 .title2 {
     font-size: 40px;
