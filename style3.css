@@ -8,8 +8,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 body {
-    background-color: rgb(223, 245, 255);
-    /* height: 900px; */
+    background-color: rgb(60, 30, 109);
+    color: rgb(230, 230, 230);
 }
 .inner-container {
     width: 1400px;
@@ -22,7 +22,7 @@ body {
 }
 header {
     position: fixed;
-    background-color: rgb(223, 245, 255);
+    background-color: rgb(60, 30, 109);
     width: 100%;
     height: 85px;
     top: 0;
@@ -56,7 +56,7 @@ header .menubtn {
     font-size: 50px;
 }
 .geainjujae {
-    background-color: rgb(141, 219, 255);
+    background-color: rgb(106, 63, 245);
     text-align: center;
     width: 100vw;
     height: 200px;
@@ -152,7 +152,7 @@ top: 30px;
 }
 /* 푸터 */
 footer {
-    background-color: rgb(141, 219, 255);
+    background-color :rgb(106, 63, 245);
     height: 100px;
     line-height: 32px;
     font-size: 16px;
