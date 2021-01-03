@@ -9,11 +9,11 @@
 
 body {
     background-color: rgb(223, 245, 255);
-    height: 900px;
 }
 .inner-container {
     width: 1400px;
     margin: 0 auto;
+    position: relative;
 }
 /* 헤더 */
 .header-box {
@@ -47,12 +47,139 @@ header .menubtn {
     padding-top: 28px;
 }
 /* 메인 */
-.hi {
-    padding-top: 500px;
+.module3 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 50px;
+}
+.geainjujae {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
+    width: 80vw;
+    height: 150px;
+}
+.geainjujaename {
+    font-size: 42px;
+    line-height: 60px;
+}
+.geainjujaeintro {
+font-size: 20px;
+}
+/* 성장일기 */
+.geaju3 {
+    margin-top: 100px;
+    height: 562.5px;
+    width: 1000px;
+    position: relative;
+    left: 200px;
+    margin-bottom: 200px;
+}
+.contain3 {
+    width: 14000px;
+    transition: 0.5s;
+    display: flex;
+}
+.inner3 {
+  width: 1000px;
+}
+.btnbox3 {
+    position: absolute;
+    top: 260px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.left3,.right3 {
+width: 40px;
+height: 40px;
+opacity: 0.7;
+}
+/* C랩 수업 */
+.geaju {
+    margin-top: 100px;
+    height: 281.25px;
+    width: 500px;
+    position: relative;
+    margin-bottom: 200px;
+}
+.contain {
+    width: 7000px;
+    transition: 0.5s;
+    display: flex;
+}
+.inner {
+  width: 500px;
+}
+.btnbox {
+    position: absolute;
+    top: 120px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.left,.right {
+width: 40px;
+height: 40px;
+opacity: 0.7;
+}
+.txt1 {
+text-align: left;
+position: absolute;
+width: 570px;
+right: 20px;
+top: 20px;
+}
+.title1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.intro1 {
+    margin-top: 10px;
+    width: 500px;
+}
+/* 문제정의 */
+.geaju2 {
+    margin-top: 100px;
+    height: 281.25px;
+    width: 500px;
+    position: relative;
+    left: 800px;
+    margin-bottom: 200px;
+}
+.contain2 {
+    width: 7000px;
+    transition: 0.5s;
+    display: flex;
+}
+.left2,.right2 {
+width: 40px;
+height: 40px;
+opacity: 0.7;
+}
+.txt2 {
+    width: 590px;
+text-align: right;
+position: absolute;
+top: 30px;
+left: -30px;
+}
+.title2 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.intro2 {
+    margin-top: 10px;
+    line-height: 24px;
 }
 /* 푸터 */
 footer {
-    background-color: rgb(141, 219, 255);
+    background-color : #49B8C6;
     height: 100px;
     line-height: 32px;
     font-size: 16px;

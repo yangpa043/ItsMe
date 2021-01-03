@@ -189,12 +189,12 @@ img {
 
 /* unvisited link */
 .menubtn a:link {
-  color: rgb(230, 230, 230);
+  color: black;
 }
 
 /* visited link */
 .menubtn a:visited {
-  color: rgb(230, 230, 230);
+  color: black;
 }
 
 /* mouse over link */

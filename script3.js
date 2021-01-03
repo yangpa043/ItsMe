@@ -27,4 +27,32 @@ window.onload = function () {
             contain2.style.transform = 'translate(' + page2 + 'px)'
         }
     })
+    var contain3 = document.querySelector('.contain3')
+    var page3 = 0
+    document.querySelector('.right3').addEventListener('click', function () {
+        if (page3 > -3000) {
+            page3 = page3 - 1000
+            contain3.style.transform = 'translate(' + page3 + 'px)'
+        }
+    })
+    document.querySelector('.left3').addEventListener('click', function () {
+        if (page3 < 0) {
+            page3 = page3 + 1000
+            contain3.style.transform = 'translate(' + page3 + 'px)'
+        }
+    })
+    var contain4 = document.querySelector('.contain4')
+    var page4 = 0
+    document.querySelector('.right4').addEventListener('click', function () {
+        if (page4 > -8500) {
+            page4 = page4 - 500
+            contain4.style.transform = 'translate(' + page4 + 'px)'
+        }
+    })
+    document.querySelector('.left4').addEventListener('click', function () {
+        if (page4 < 0) {
+            page4 = page4 + 500
+            contain4.style.transform = 'translate(' + page4 + 'px)'
+        }
+    })
 }
