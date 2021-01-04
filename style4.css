@@ -7,6 +7,15 @@
 /* font-family: 'Nanum Gothic', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
+@keyframes f1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body {
     background-color: rgb(223, 245, 255);
 }
@@ -47,6 +56,10 @@ header .menubtn {
     padding-top: 28px;
 }
 /* 메인 */
+main {
+    animation-duration: 1.5s;
+    animation-name: f1;
+}
 .module3 {
     padding-top: 50px;
     padding-bottom: 100px;
@@ -179,7 +192,7 @@ left: -30px;
 }
 /* 푸터 */
 footer {
-    background-color : #49B8C6;
+    background-color : rgb(81, 218, 236);
     height: 100px;
     line-height: 32px;
     font-size: 16px;

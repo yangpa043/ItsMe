@@ -7,6 +7,15 @@
 /* font-family: 'Nanum Gothic', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
+@keyframes f1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body {
     background-color: rgb(223, 245, 255);
 }
@@ -46,23 +55,57 @@ header .menubtn {
     padding-top: 28px;
 }
 /* 메인 */
+main {
+    animation-duration: 1s;
+    animation-name: f1;
+}
+.sogae {
+    font-size: 40px;
+    position: relative;
+}
+.hi {
+    position:absolute;
+    top: 400px;
+    left: 150px;
+}
+.iam {
+    position:absolute;
+    top: 400px;
+    right: 150px;
+}
+.yangpaimg {
+    margin: 0 auto;
+    height: 750px;
+    width: 85%;
+    padding-bottom:200px;
+    padding-top: 50px;
+}
 .jujae {
+    border-top: 3px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: 'Nanum Gothic', sans-serif;
 }
 .yangpa {
-    /* padding-top: 150px; */
+    padding-top: 30px;
+    padding-bottom: 50px;
     font-size: 40px;
     text-align: center;
-}
-.hi {
-    font-size: 40px;
-    line-height: 50px;
 }
 .jjbox {
     padding-top: 40px;
     display: flex;
     width: 1170px;
     margin: 0 auto;
+}
+.jjbox a:link {
+    color: black;
+}
+.jjbox a:visited {
+    color: black;
+}
+.jjbox a:hover {
+    color: black;
 }
 
 .sbox,.gbox,.cbox {
@@ -88,7 +131,7 @@ header .menubtn {
 }
 /* 푸터 */
 footer {
-    background-color: rgb(141, 219, 255);
+    background-color: rgb(81, 218, 236);
     height: 100px;
     line-height: 32px;
     font-size: 16px;
